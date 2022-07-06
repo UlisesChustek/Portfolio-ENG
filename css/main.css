@@ -19,11 +19,8 @@
  *  11. about
  *  12. resume
  *  13. portfolio
- *  14. call-to-action section
- *  15. services
- *  16. stats
- *  17. contact
- *  18. footer
+ *  14. services
+ *  15. footer
  *
  * =================================================================== 
  */
@@ -1085,9 +1082,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  */
 header {
 	position: fixed;
-	width: 100%;
+	width: 25%;
 	min-height: 66px;
-	z-index: 600;
+	z-index: 500;
 }
 header .row {
 	position: relative;
@@ -1096,21 +1093,21 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 210px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	left: 20px;
 	top: 0;
 }
 header .logo {
 	float: left;
-	margin-left: 20px;
-	margin-right: 50px;
-	margin-top: 25px;
-	position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 12.5%;
+	position: static;
 }
 header .logo a {
-	display: block;
+	display: flex;
 	margin: 0;
 	padding: 0;
 	border: none;
@@ -1267,9 +1264,10 @@ header .logo a {
  */
 @media only screen and (max-width:1024px) {
 	header .top-bar {
-		left: 60px;
+		left: 120px;
 	}
 }
+
 @media only screen and (max-width:768px) {
 	header .top-bar {
 		left: 50px;
@@ -1277,7 +1275,7 @@ header .logo a {
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
-		left: 35px;
+		left: 25px;
 	}
 }
 @media only screen and (max-width:400px) {
@@ -1285,6 +1283,7 @@ header .logo a {
 		left: 25px;
 	}
 }
+
 
 
 /** 
